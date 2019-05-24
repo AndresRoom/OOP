@@ -1,0 +1,46 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.clock {
+    position: fixed;
+    top: 37px;
+    right: -77px;
+    transform: translateX(-50%) translateY(-50%);
+    color: #17D4FE;
+    font-size: 24px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+}
+   
+h1.avaleht {
+    text-align:center;
+}
+
+p.avaleht {
+    text-align:center;
+}
+
+body.pildiga {
+    background-image: url("https://mapswire.com/maps/europe/europe-physical-map-blank-large.jpg");    
+}
